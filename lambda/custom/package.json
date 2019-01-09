@@ -1,0 +1,16 @@
+{
+  "name": "skill-sample-nodejs-berry-bash",
+  "version": "1.0.0",
+  "description": "Berry Bash skill example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jamielliottg",
+  "license": "ISC",
+  "dependencies": {
+  	"ask-sdk": "^2.0.0",
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0"
+  }
+}

@@ -1,0 +1,179 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "berry bash",
+			"intents": [
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.MoreIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NavigateSettingsIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NextIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NoIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.PageDownIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NavigateHomeIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.PageUpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.PreviousIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.RepeatIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.ScrollDownIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.ScrollLeftIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.ScrollRightIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.ScrollUpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.YesIntent",
+					"samples": []
+				},
+				{
+					"name": "ElementSelected",
+					"slots": [
+						{
+							"name": "categoryValue",
+							"type": "categoryList"
+						},
+						{
+							"name": "numberValue",
+							"type": "AMAZON.NUMBER"
+						}
+					],
+					"samples": [
+						"i choose {categoryValue}",
+						"tell me about {categoryValue}",
+						"show me {categoryValue}",
+						"select {categoryValue}",
+						"select {numberValue}",
+						"show me {numberValue}",
+						"tell me about {numberValue}",
+						"i choose {numberValue}",
+						"{categoryValue}",
+						"{numberValue}",
+						"number {numberValue}",
+						"choose {categoryValue}"
+					]
+				},
+				{
+					"name": "InformationIntent",
+					"slots": [],
+					"samples": [
+						"Open MailHaven",
+						"MailHaven"
+					]
+				},
+				{
+					"name": "MoreInfoIntent",
+					"slots": [],
+					"samples": [
+						"keep going",
+						"tell me more",
+						"read out the rest",
+						"read"
+					]
+				}
+			],
+			"types": [
+				{
+					"name": "categoryList",
+					"values": [
+						{
+							"name": {
+								"value": "Transit"
+							}
+						},
+						{
+							"name": {
+								"value": "Delivered"
+							}
+						},
+						{
+							"name": {
+								"value": "Delayed"
+							}
+						},
+						{
+							"name": {
+								"value": "blueberries"
+							}
+						},
+						{
+							"name": {
+								"value": "elderberries"
+							}
+						},
+						{
+							"name": {
+								"value": "gooseberries"
+							}
+						},
+						{
+							"name": {
+								"value": "cranberries"
+							}
+						},
+						{
+							"name": {
+								"value": "huckleberries"
+							}
+						},
+						{
+							"name": {
+								"value": "cherries"
+							}
+						},
+						{
+							"name": {
+								"value": "gojiberries"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
